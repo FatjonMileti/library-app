@@ -1,0 +1,30 @@
+/*.main {
+  display: flex;
+  flex-direction: row;
+  }
+
+.main div {
+  margin: 10px 20px;
+  } */
+
+.main {
+  margin-bottom: 1em;
+}
+
+.login {
+  width: 300px;
+  margin: 3em auto;
+}
+
+.red {
+  color: red;
+}
+
+.input-group {
+  width: 300px;
+  float: right;
+}
+
+.bookWrapper {
+  margin: 0 0 30px 0;
+}

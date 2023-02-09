@@ -1,0 +1,22 @@
+<div class="container-fluid row">
+    {{#each books}}
+  <div class="col col-sm-3 col-md-3 bookWrapper">
+    <a href='{{this.d_link}}'>
+    <img
+  src="{{this.cover_image}}"
+  class="img-thumbnail"
+  alt="{{this.book_name}}"
+  data-mdb-toggle="popover"
+  title="{{this.book_name}}"
+  data-mdb-content="{{this.description}}"
+  data-mdb-trigger="hover" width = 200px;
+/>
+      </a>
+    <p><b>{{this.book_name}}</b></p>
+    <p><b>Author:</b> <i>{{this.author_name}}</i></p>
+    <script>
+      document.write("{{this.genres}}".replace(",", " "));
+    </script>
+    </div>
+  {{/each}}
+</div>

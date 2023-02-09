@@ -1,0 +1,39 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="/users">ADD BOOK</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/users/edit_book">EDIT BOOK</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/users/delete_book">DELETE BOOK</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+<div class="container-fluid">
+  <br>
+    <form action="./delete_book" method="post">
+        <div class="form-outline">
+            <label for="book_name">Book Name:</label>
+            <input type="text" name="book_name" class="form-control form-control-lg" id="book_name" required>
+        </div>
+      </div>
+      <br>
+        <button type="submit" class="btn btn-default btn-primary">Delete Book</button>
+    </form>
+</div>
